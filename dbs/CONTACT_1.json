@@ -1,0 +1,31 @@
+[
+  {
+    "groupName": "Family",
+    "groupID": 1,
+    "member": []
+  },
+  {
+    "groupName": "Office",
+    "groupID": 2,
+    "member": [
+      {
+        "firstName": "TestFirstName",
+        "lastName": "TestLastName",
+        "birthDate": "2000-06-13",
+        "phone": "0987655678",
+        "email": "",
+        "url": "",
+        "contactID": 1
+      },
+      {
+        "firstName": "Office Firstname",
+        "lastName": "Office Lastname",
+        "birthDate": "1900-06-13",
+        "phone": "0987655678",
+        "email": "",
+        "url": "",
+        "contactID": 2
+      }
+    ]
+  }
+]
