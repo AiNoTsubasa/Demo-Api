@@ -3,8 +3,8 @@ const axios = require('axios');
 class Email {
     
     constructor() {
-        this.SENDGRID_SEND_API_URL = process.env.SENDGRID_SEND_API_URL || 'https://api.sendgrid.com/v3/mail/send';
-        this.SENDGRID_API_KEY = process.env.SENDGRID_API_KEY || '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';
+        this.SENDGRID_SEND_API_URL = process.env.SENDGRID_SEND_API_URL;
+        this.SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
         this.SENDER_NAME = process.env.SENDER_NAME || 'Test';
         this.SENDER_EMAIL = process.env.SENDER_EMAIL || 'test@test.com';
     
